@@ -1,5 +1,5 @@
 import { Header } from "./header";
-import {SideMenu} from "./sidemenu"
+import { SideMenu } from "./sidemenu";
 
 import styles from "./style.module.css";
 
@@ -11,12 +11,10 @@ export const Layout: React.FC<Props> = ({ children }) => {
 	return (
 		<>
 			<Header />
-      <SideMenu />
+			<SideMenu />
 
 			<div className={styles.container}>
-				<main className={styles.main}>
-					{children}
-				</main>
+				<main className={styles.main}>{children}</main>
 			</div>
 		</>
 	);

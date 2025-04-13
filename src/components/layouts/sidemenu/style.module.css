@@ -1,14 +1,18 @@
 .container {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  padding: 64px 32px 32px;
-  background-color: #fff;
-  overflow-x: hidden;
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  box-sizing: border-box;
-  width: var(--column-width);
-  background-color: #f8fafd;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	padding: 64px 32px 32px;
+	background-color: #fff;
+	overflow-x: hidden;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	box-sizing: border-box;
+	width: var(--column-width);
+	background-color: #f8fafd;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+	margin-top: 12px;
 }

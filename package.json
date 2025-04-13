@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:next": "next lint",
+    "lint": "biome lint ./src",
+    "lint:fix": "biome check --write ./src"
   },
   "dependencies": {
     "next": "15.3.0",

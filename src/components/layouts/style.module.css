@@ -1,8 +1,8 @@
 .container {
-  padding-left: var(--column-width);
-  padding-top: 64px;
+	padding-left: var(--column-width);
+	padding-top: 64px;
 }
 
 .main {
-  padding: 32px;
+	padding: 32px;
 }
