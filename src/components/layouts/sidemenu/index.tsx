@@ -1,4 +1,4 @@
-import { SideMenuHead } from "@/components/layouts/sidemenu-head";
+import { SideMenuItems } from "@/components/layouts/sidemenu-items";
 
 import style from "./style.module.css";
 
@@ -7,7 +7,9 @@ export const SideMenu = () => {
 		<aside className={style.container}>
 			<nav className={style.nav}>
 				<div>
-					<SideMenuHead />
+					<SideMenuItems>
+						open
+					</SideMenuItems>
 				</div>
 			</nav>
 		</aside>
