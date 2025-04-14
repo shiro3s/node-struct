@@ -6,6 +6,10 @@
 	cursor: pointer;
 }
 
+.item[data-expanded=true] .caret {
+	transform: rotate(90deg);
+}
+
 .text {
 	font-size: 16px;
 	color: #777;
@@ -19,4 +23,8 @@
 	align-items: center;
 	cursor: pointer;
 	color: #777;
+}
+
+.pages {
+	margin: 8px 0;
 }

@@ -14,6 +14,7 @@ export const SideMenuHead = () => {
 				tabIndex={0}
 				className={styles.item}
 				onClick={handleToggle}
+				data-expanded={open}
 			>
 				<h2 className={styles.text}>Pages</h2>
 				<div className={styles.caret}>
@@ -21,7 +22,7 @@ export const SideMenuHead = () => {
 				</div>
 			</div>
 
-			{open && <div>open</div>}
+			{open && <div className={styles.pages}>open</div>}
 		</section>
 	);
 };
