@@ -16,8 +16,7 @@
     "normalize.css": "^8.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-redux": "^9.2.0",
-    "sqlite3": "^5.1.7"
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
