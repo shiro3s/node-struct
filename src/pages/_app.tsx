@@ -5,7 +5,9 @@ import { StoreProvider } from "@/provider/store";
 
 import "@/styles/global.css";
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps, ...rest }: AppProps) {
+	console.log(rest)
+
 	return (
 		<StoreProvider>
 			<Layout>
