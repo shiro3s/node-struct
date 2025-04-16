@@ -12,7 +12,6 @@ export const SideMenuItems: React.FC<Props> = ({ children }) => {
 
 	return (
 		<section>
-			{/* biome-ignore lint: */}
 			<div
 				role="button"
 				tabIndex={0}
@@ -20,7 +19,7 @@ export const SideMenuItems: React.FC<Props> = ({ children }) => {
 				onClick={handleToggle}
 				data-expanded={open}
 			>
-				<h2 className={styles.text}>Pages</h2>
+				<h2 className={styles.text}>Collections</h2>
 				<div className={styles.caret}>
 					<span className="material-icons-outlined">chevron_right</span>
 				</div>

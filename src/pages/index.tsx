@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 	return (
 		<div>
 			<header>
-				<Btn onClick={handleOpen}>New folder</Btn>
+				<Btn onClick={handleOpen}>New collection</Btn>
 			</header>
 			<p>page</p>
 
